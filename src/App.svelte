@@ -1,16 +1,6 @@
 <script>
 	export let name;
-	import { readRemoteFile } from 'svelte-csv'
-
-	import { onMount } from 'svelte';
-
-
-	import csv from 'csvtojson';
-
 	let quirks = [];
-
-
-
 </script>
 
 <main>
